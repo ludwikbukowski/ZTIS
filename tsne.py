@@ -37,7 +37,7 @@ import glob
 import os.path
 from datetime import datetime
 
-stocks = pd.read_csv('stock_prices', sep=',')
+stocks = pd.read_csv('stock_prices.csv', sep=',')
 zipped = list(zip(stocks["Month"], stocks["Day"], stocks["Year"]))
 normalized_dates = []
 for r in zipped:
