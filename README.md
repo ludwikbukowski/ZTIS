@@ -1,5 +1,4 @@
 # ZTIS
-
 ## Przygotowanie danych
 ```
 $ python3 fetch_data.py
@@ -7,7 +6,7 @@ $ python3 process_data.py
 $ python3 load_data.py
 ```
 
-## Utworzenie sieci neuronowej
+## Predykcja
 ```
 $ python3 predict.py
 ```
